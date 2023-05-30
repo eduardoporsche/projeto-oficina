@@ -8,3 +8,5 @@ $bd        ="final";
 $con = new mysqli($host, $user, $password, $bd);
 
 ?>
+
+//Olá, eu editei.
