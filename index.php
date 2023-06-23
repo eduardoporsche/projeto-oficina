@@ -1,43 +1,94 @@
 <!DOCTYPE html>
-  <html>
+<html>
+    <meta charset="UTF-8">
     <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <style type="text/css">
+            p{
+                text-align: justify;
+            }
+        </style>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
+    <body>
 
-<body ng-app="mainModule" ng-controller="mainController">
-    
-    <div class="container">
+        <?php
+        include './menu.php';
+        ?>
 
-    </div>
-        <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
-              <li><a href="#!">area 1</a></li>
-              <li><a href="#!">area 2</a></li>
-              <li class="divider"></li>
-              <li><a href="#!">area 3</a></li>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/moto.png"> <!-- random image -->
+                    <div class="caption center-align">
+                        
+                    </div>
+                </li>
+
+                
+                
             </ul>
-            <nav>
-              <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                  <li><a href="sass.html">Sass</a></li>
-                  <li><a href="badges.html">Components</a></li>
-                  <!-- Dropdown Trigger -->
-                  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                </ul>
-              </div>    
-            </nav>
-    
-      
+        </div>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+        <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/fusca.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>Me chamo Eduardo. Sou um mecanico muito sortificado, fiz diversos porjetos com a Ferrari.
+            Decidi abrir uma oficina com meu amigo Joao. 
+          </p>
+        </div>
+        <div class="card-action">
+          <a href="#">Saiba mais sobre mim</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <div class="carousel">
+            <a class="carousel-item"  href="exibir_os.php"><img src="img/lista.png" width="200"></a>
+            <a class="carousel-item" href="exibir.php"><img src="img/add_cliente.png" width="200"></a>
+        </div>
+
+       
+        <?php
+        include './footer.php';
+        ?>
+
+
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">
+
+        </script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+
+        <script>
+
+            $(document).ready(function () {
+                $('.slider').slider();
+            });
+
+            $(document).ready(function () {
+                $('.carousel').carousel();
+            });
+
+        </script>
     </body>
-  </html>
+</html>
+
+
+    
