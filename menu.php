@@ -1,11 +1,21 @@
+<?php
+    include 'includes/header.php';
+    ?>
 
-<nav class="grey">
-    <div class="nav-wrapper">
-        <a href="index.php" class="brand-logo center">Ofincina Edu Joao</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="cadastro.php">Cadastro</a></li>
-          <li><a href="exibir.php">Exibir</a></li>
-        <li><a href="exibir_os.php">Exibir OS</a></li>
-      </ul>
-    </div>
-  </nav>
+
+<div class="container">
+
+                    <div class="row height d-flex justify-content-center align-items-center">
+
+                      <div class="col-md-8">
+
+                        <div class="search">
+                          <i class="fa fa-search"></i>
+                          <input type="text" class="form-control" placeholder="Faça sua pesquisa">
+                          <button class="btn btn-primary">Pesquisar</button>
+                        </div>
+                        
+                      </div>
+                      
+                    </div>
+                </div>
