@@ -18,10 +18,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="menu.php">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastrar.php">Cadastrar</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
