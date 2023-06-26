@@ -1,5 +1,5 @@
 <?php
-include 'includes/conexao.php';
+include '../includes/conexao.php';
 $nome       = $_POST['nome'];
 $cpf        = $_POST['cpf'];
 $email      = $_POST['email'];
@@ -7,7 +7,7 @@ $endereco   = $_POST['endereco'];
 $bairro     = $_POST['bairro'];
 $telefone   = $_POST['telefone'];
 
-$inserir = $conn->query("INSERT INTO cliente VALUES(0,'$nome','$cpf','$email','$endereco','$bairro','$telefone','$sobrenome')");
+$inserir = $con->query("INSERT INTO cliente VALUES(0,'$nome','$cpf','$email','$endereco','$bairro','$telefone')");
 
 if ($inserir) {
     echo 'Cadastro REALIZADO';
