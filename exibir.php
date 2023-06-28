@@ -4,7 +4,7 @@ include 'includes/header.php'
 
 
 <?php
-include("developers.php");
+include 'developers.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,19 +14,20 @@ include("developers.php");
 <body>
 <div class="container">
  <div class="row">
+ <div class="row d-flex justify-content-center align-items-center h-100">
    <div class="col-sm-8">
     <?php echo $deleteMsg??''; ?>
     <div class="table-responsive">
       <table class="table table-bordered">
        <thead><tr><th>S.N</th>
 
-         <th>Full Name</th>
-         <th>Gender</th>
+         <th>Id</th>
+         <th>Nome</th>
+         <th>Cpf</th>
          <th>Email</th>
-         <th>Mobile Number</th>
-         <th>Address</th>
-         <th>City</th>
-         <th>State</th>
+         <th>Endereco/th>
+         <th>Bairro</th>
+         <th>Telefone</th>
     </thead>
     <tbody>
   <?php
@@ -36,13 +37,13 @@ include("developers.php");
     ?>
       <tr>
       <td><?php echo $sn; ?></td>
-      <td><?php echo $data['fullName']??''; ?></td>
-      <td><?php echo $data['gender']??''; ?></td>
+      <td><?php echo $data['id']??''; ?></td>
+      <td><?php echo $data['nome']??''; ?></td>
+      <td><?php echo $data['cpf']??''; ?></td>
       <td><?php echo $data['email']??''; ?></td>
-      <td><?php echo $data['mobile']??''; ?></td>
-      <td><?php echo $data['address']??''; ?></td>
-      <td><?php echo $data['city']??''; ?></td>
-      <td><?php echo $data['state']??''; ?></td>  
+      <td><?php echo $data['endereco']??''; ?></td>
+      <td><?php echo $data['bairro']??''; ?></td>
+      <td><?php echo $data['telefone']??''; ?></td>  
      </tr>
      <?php
       $sn++;}}else{ ?>

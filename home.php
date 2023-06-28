@@ -94,8 +94,8 @@
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="img/kayo2.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>Kayo</h2>
+            <p>Me chamo Kayo, atualmente trabalho nesta empresa de automoveis. No entanto não é desde sempre que eu possuo uma carreira de sucesso, tudo começou a partir do meu bisavó que aos 11 anos de idade precisava beber lama e comer terra para sobreviver as condições ostis da África Subsahariana! Ele com sua familia fugiram refugiados de sua terra até o leste da Europa com o destino a Portugal, mas mal sabiam que a coroa portuguesa estava escravizando o seu povo e daí meu bisavó veio transportado de canoa ao Brasil. Trabalhou como escravo e gerou minha vó, que gerou minha mãe que me gerou... E graças ao seu esforço hoje posso dizer que minhas bixinhas eu pago todo fim de semana com minha grana e graças a ele sou conhecido como negão da canela fina.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
@@ -164,3 +164,11 @@
     <script src="assets/js/vendor/holder.min.js"></script>
   </body>
 </html>
+
+
+
+
+
+<?php
+include 'footer.php';
+?>
